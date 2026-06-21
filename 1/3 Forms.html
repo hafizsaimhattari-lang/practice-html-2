@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Basic Forms in Html</title>
+    </head>
+    <body>
+        <h1>Basic Forms in html!! (1)</h1>
+        <!--? Form with table -->
+        <!--? input: type (checkbox radio text password), name/id, placeholder, title -->
+        <!--? label: for > name -->
+        
+        <form action="https://www.google.com" target="_blank">
+            <table>
+                <tr>
+                    <td>
+                        <label for="username">Username:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="username" placeholder="Enter Username" title="Enter User Name">
+                    </td>
+                    <td>
+                       <input type="checkbox">
+                    </td>
+                    <td>
+                        <input type="radio" name="Radio">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password:</label>
+                    </td>
+                    <td>
+                        <input type="password" name="password" placeholder="Enter Password" title="Enter Password">
+                    </td>
+                    <td>
+                        <input type="checkbox" name="Checkbox">
+                    </td>
+                    <td>
+                        <input type="radio" name="Radio">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button title="Click & Submit">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <h1>Basic Forms in html!! (2)</h1>
+        <form>
+            <label for="username">UserName:</label>
+            <input type="text" placeholder="Enter User Name" id="username" title="Enter User Name">
+            <input type="checkbox" name="checkbox">
+            <input type="radio" name="radio">
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter Password" title="Enter Password">
+            <input type="checkbox" name="checkbox">
+            <input type="radio" name="radio">
+            <br><br>
+            <input type="button" value="Submit" title="Click & Submit">
+        </form>
+    </body>
+</html>
