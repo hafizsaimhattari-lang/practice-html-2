@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Timetable Span Practice</title>
+    <style>
+        table, td, th {
+            border: 0.5px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption><strong>Class Timetable</strong></caption>
+        <colgroup>
+        <col span="1" style="background-color:yellow;">
+        <col span="1" style="background-color:red;">
+        </colgroup>
+        <tr>
+            <th>Day</th>
+            <th>9:00</th>
+            <th>10:00</th>
+            <th>11:00</th>
+            <th>12:00</th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td>Math</td>
+            <td>English</td>
+            <td rowspan="3" style="background-color:aqua;">Break</td>
+            <td>Computer</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td>Urdu</td>
+            <td>Science Lab</td>
+            <td>English</td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td>English</td>
+            <td>Math</td>
+            <td>Games</td>
+        </tr>
+        
+    </table>
+</body>
+</html>
