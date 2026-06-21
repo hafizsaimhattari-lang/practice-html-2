@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3rd class html Table in html</title>
+    <style>
+        table, th, td, tr {
+            border: 1px solid black;
+            border-collapse:collapse
+        }
+    </style>
+</head>
+<body>
+    <h1>Table</h1>
+    <table>
+        <thead>
+        <tr>
+            <th>Month</th>
+            <th>Amount</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jan</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Feb</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td>March</td>
+                <td>300</td>
+            </tr>
+
+        </tbody>    
+        <tfoot>
+           <tr>
+            <td>Total</td>
+            <td>600</td>
+           </tr>
+        </tfoot>   
+    
+    </table>
+    <!--? Row Span Colspan -->
+    
+    <!--? Rule: rowspan ya colspan kabhi bhi khud se nayi rows ya columns paida (create) nahi karte. Ye sirf pehle se mojood rows/columns ke andar apni jagah gherte hain. -->
+    
+    <!--* colspan -->
+    <h1>Table</h1>
+    <table>
+        <thead>
+        <tr>
+            <th colspan="2">Month</th>
+            <th>Amount</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jan</td>
+                <td>100</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Feb</td>
+                <td>200</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td>March</td>
+                <td>300</td>
+                <td>300</td>
+            </tr>
+
+        </tbody>    
+        <tfoot>
+           <tr>
+            <td>Total</td>
+            <td>600</td>
+            <td>600</td>
+           </tr>
+        </tfoot>   
+    
+    </table>
+    
+    <!--* rawspan -->
+    <h1>Table</h1>
+    <table>
+        <thead>
+        <tr>
+            <th>Month</th>
+            <th>Amount</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jan</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Feb</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td rowspan="2">March</td>
+                <td>300</td>
+            </tr>
+            <tr>
+               <td>Aprail</td>
+            </tr>
+
+        </tbody>    
+        <tfoot>
+           <tr>
+            <td>Total</td>
+            <td>600</td>
+           </tr>
+        </tfoot>   
+    
+    </table>
+    
+    
+</body>
+</html>
